@@ -1,0 +1,8 @@
+{
+  "name": "OctreePlugin",
+  "author": "a_Tom",
+  "main": "dev.ferrand.chunky.jpegxl.JpegxlPlugin",
+  "version": "0.1.0",
+  "targetVersion": "2.4.0",
+  "description": "Add an JPEG-XL export option."
+}
