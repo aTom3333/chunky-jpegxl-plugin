@@ -33,7 +33,7 @@ native library of the plugin is loaded. This means adding the directory where th
 PATH environment variable used to locate dynamic library (that is $PATH on Windows and $LD_LIBRARY_PATH on linux).
 For example on my system, the libjxl is installed in `/usr/local/lib` so I run
 ```
-export LD_LIBRARY_PATH="$LD_LIBRARY_PATH;/usr/local/lib"
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/lib"
 java -jar ChunkyLauncher.jar
 ``` 
 To run chunky while making sure the library will be located.
